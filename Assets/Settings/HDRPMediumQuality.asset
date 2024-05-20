@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: HDRPMediumQuality
   m_EditorClassIdentifier: 
   m_RenderPipelineSettings:
-    supportShadowMask: 1
+    supportShadowMask: 0
     supportSSR: 0
     supportSSRTransparent: 0
     supportSSAO: 1
