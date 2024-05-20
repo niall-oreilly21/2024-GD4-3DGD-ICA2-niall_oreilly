@@ -38,7 +38,6 @@ public class GarageBehaviour : MonoBehaviour
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
             doorOpen = !doorOpen;
-            // Toggle the portal state
             renderer.enabled = doorOpen;
 
             meshColliderActive = !meshColliderActive;
